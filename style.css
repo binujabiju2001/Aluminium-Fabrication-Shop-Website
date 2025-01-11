@@ -1,0 +1,254 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    
+
+}
+
+.container1{
+    height: 35px;
+    width: 100%;
+    padding: 5PX;
+    animation-name: moving-text;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+
+}
+
+@keyframes moving-text {
+    0% {
+        background-color: #87ceeb; /* Light Sky Blue */
+    }
+    20% {
+        background-color: #b2f0e7; /* Pale Mint */
+    }
+    40% {
+        background-color: #d3d3d3; /* Light Gray */
+    }
+    60% {
+        background-color: #e6e6fa; /* Soft Lavender */
+    }
+    80% {
+        background-color: #b0e0e6; /* Powder Blue */
+    }
+    100% {
+        background-color: #d3d3d3; /* Light Gray */
+    }
+}
+
+.moving-text {
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    animation: moving-text 5s infinite; /* 5s duration, infinite loop */
+}
+
+
+    
+      
+    
+
+
+.bg-custom{
+    background: linear-gradient(90deg, #a0c4ff, #dbe4e9, #f1f4f7);
+
+}
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f4f7f6;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #34495e;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid #1abc9c;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: navy;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+}
+
+.navbar .navbar-toggler-icon {
+    background-color: #ecf0f1;
+}
+
+/* Navbar Links */
+.navbar .navbar-nav .nav-link {
+    font-size: small;
+    font-weight: 500;
+    color: #ecf0f1;
+    transition: all 0.3s ease;
+    margin-right: 1.5rem;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+/* Hover Effects for Navbar */
+.navbar .navbar-nav .nav-link:focus, .navbar .navbar-nav .nav-link:hover {
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+/* Responsive Design for Mobile View */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+/* Section Styling */
+section {
+    padding: 5rem 0;
+}
+
+/* Link Styling for Specific Sections */
+#top {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #16a085;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#top:hover {
+    color: #1abc9c;
+}
+
+/* Button Styling */
+.btn-custom {
+    background-color: #1abc9c;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #16a085;
+    transform: scale(1.05);
+}
+
+
+.montserrat-bold {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size:larger;
+    color: #333;
+  }
+
+  . display-2{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+/* General container styling */
+.container-fluid1 {
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+/* About section styling */
+.about-section {
+    background-color: ivory;/* Light background for contrast */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading styling */
+.about-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+.about-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8; /* Improves readability */
+    margin-bottom: 15px;
+}
+
+/* List styling */
+.about-content ul {
+    list-style-type: disc; /* Ensures bullet points are visible */
+    padding-left: 40px; /* Adds space between list and container */
+    margin-top: 10px;
+}
+
+.about-content li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .about-heading {
+        font-size: 1.8rem;
+    }
+    .about-content p,
+    .about-content li {
+        font-size: 0.9rem;
+    }
+}
