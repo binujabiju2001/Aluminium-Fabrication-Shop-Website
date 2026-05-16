@@ -1,116 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>Contact Us | GS Aluminium Fabrication</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="contact.css">
 </head>
-<body style="background-color: beige;">
-    <section id="contact" class="p-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card mt-3">
-                        <div class="card-body bg-primary text-center text-white">
-                            <h2>Contact us for booking</h2>
-                            <p>For bookings or inquiries, please contact us today!</p>
-                        </div>
-                    </div>
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <h3>LOCATION</h3>
-                        </li>
-                        <li class="list-group-item">
-                            G.S ALUMINIUM FABRICATION
-                        </li>
-                        <li class="list-group-item">
-                            MAIN ROAD OPP PETROL PUMP KOTTAVATTOM JUNCTION, ELAMPAL, PUNALUR
-                        </li>
-                        <li class="list-group-item">
-                            KERALA, INDIA
-                        </li>
-                    </ul>
-                </div>
 
-                <div class="col-md-6">
-                    <div class="card mt-3">
-                        <div class="card-header bg-primary text-white text-center">
-                            <h3>CONTACT US</h3>
-                        </div>
-                        <div class="card-body bg-light">
-                            <form>
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="ENTER YOUR NAME">
-                                </div>
+<body>
 
-                                <div class="mb-3">
-                                    <input type="email" class="form-control" placeholder="ENTER YOUR EMAIL">
-                                </div>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark custom-navbar sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      GS <span>Aluminium</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery1.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
+        <li class="nav-item ms-lg-3"><a href="https://wa.me/919495904250" class="btn btn-success btn-sm">WhatsApp</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- END NAVBAR -->
 
-                                <div class="mb-3">
-                                    <input type="number" class="form-control" placeholder="ENTER YOUR PHONE NUMBER">
-                                </div>
-                                
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="ENTER THE SERVICE REQUIRED">
-                                </div>
+<!-- HERO SECTION -->
+<section class="contact-hero">
+  <div class="hero-content">
+    <h1>Get in Touch</h1>
+    <p>We're here to help you with all your aluminium fabrication needs</p>
+  </div>
+</section>
+<!-- END HERO SECTION -->
 
-                                <div class="mb-3">
-                                    <textarea class="form-control" rows="5" placeholder="(SHARE MORE DETAILS)"></textarea>
-                                </div>
+<!-- CONTACT SECTION -->
+<section class="contact-section py-5">
+  <div class="container">
+    <div class="row g-4 align-items-center">
 
-                                <div class="mt-2 d-grid gap-2">
-                                    <button type="submit" class="btn btn-outline-info px-5">
-                                        SEND
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+      <!-- CONTACT INFO CARDS -->
+      <div class="col-lg-5">
+        <div class="contact-info-container">
+          <h2 class="section-title mb-4">Contact Information</h2>
+          
+          <!-- Phone Card -->
+          <div class="contact-card">
+            <div class="card-icon phone-icon">
+              <i class="fa-solid fa-phone"></i>
             </div>
+            <div class="card-content">
+              <h5>Phone</h5>
+              <p><a href="tel:+919495904250">+91 94959 04250</a></p>
+            </div>
+          </div>
+
+          <!-- WhatsApp Card -->
+          <div class="contact-card">
+            <div class="card-icon whatsapp-icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="card-content">
+              <h5>WhatsApp</h5>
+              <p><a href="https://wa.me/919495904250">+91 9495 904 250</a></p>
+            </div>
+          </div>
+
+          <!-- Location Card -->
+          <div class="contact-card">
+            <div class="card-icon location-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="card-content">
+              <h5>Location</h5>
+              <p>Kerala, India<br><small>Opposite Indian Oil Petrol Pump</small></p>
+            </div>
+          </div>
+
+          <!-- Hours Card -->
+          <div class="contact-card">
+            <div class="card-icon hours-icon">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+            <div class="card-content">
+              <h5>Business Hours</h5>
+              <p>Monday - Saturday: 9 AM - 6 PM<br><small>Sunday: Closed</small></p>
+            </div>
+          </div>
+
+          <!-- CTA Button -->
+          <a href="https://wa.me/919495904250" class="btn btn-whatsapp-large mt-4">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp Now
+          </a>
         </div>
-    </section>
+      </div>
 
-    <!-- "Locate Us" link that opens map details -->
-    
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Locate Us</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-        <style>
-            iframe {
-                border: 0;
-                width: 100%;
-                height: 450px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container mt-4">
-            <details>
-                <summary class="btn btn-outline-info">Locate Us</summary>
-                <div class="m-2">
-                    <p class="h2 text-primary text-center m-2">LOCATE US ON GOOGLE MAP</p>
-                    <div class="ratio ratio-16x9">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.420926886192!2d76.88282629999999!3d9.025311199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0675553711ad91%3A0xb2dce3a9449e1549!2sG.S.%20Aluminium%20Fabrication!5e0!3m2!1sen!2sin!4v1736354864023!5m2!1sen!2sin" 
-                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-            </details>
+      <!-- CONTACT FORM -->
+      <div class="col-lg-7">
+        <div class="contact-form-container">
+          <h2 class="section-title mb-4">Send us a Message</h2>
+          <p class="form-subtitle">Fill out the form below and we'll get back to you as soon as possible</p>
+
+          <form onsubmit="handleFormSubmit(event)">
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="What is this about?" required>
+            </div>
+
+            <div class="mb-4">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="6" placeholder="Tell us more about your project..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-submit-large w-100">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+          </form>
         </div>
-    </body>
-    </html>
-    
-    
-    <a href="travelwebsite.html" class="btn btn-outline-info mt-3">HOME</a>
-    
+      </div>
 
+    </div>
+  </div>
+</section>
+<!-- END CONTACT SECTION -->
+<!-- MAP SECTION -->
+<section class="map-section">
+  <div class="container-fluid">
+    <h2 class="section-title text-center mb-5">Find Us on Map</h2>
+    <div class="map-box">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1970.2051509288983!2d76.87600478967288!3d9.026283800220913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b067464618ea6af%3A0x131d11d49f5f5ba4!2sIndianOil!5e0!3m2!1sen!2sin!4v1770567879109!5m2!1sen!2sin"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <p class="map-note text-center mt-4">
+      <i class="fa-solid fa-location-dot"></i> Our shop is located <strong>opposite the Indian Oil Petrol Pump</strong> in Kerala.
+    </p>
+  </div>
+</section>
+<!-- END MAP SECTION -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container-fluid">
+    <div class="footer-top">
+      <h3>GS Aluminium Fabrication</h3>
+      <p>Quality Aluminium Works • Windows • Doors • Custom Fabrication</p>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 GS Aluminium Fabrication. All Rights Reserved.</p>
+      <p>Developed and Maintained by Binuja Biju</p>
+    </div>
+  </div>
+</footer>
+<!-- END FOOTER -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="contact.js"></script>
 </body>
 </html>
